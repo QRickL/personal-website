@@ -184,3 +184,17 @@
     right: calc(100% + 128px);
   }
 }
+
+/* Adding shooting star animation */
+@keyframes shootingStarRare {
+  0% {
+    /* Stars start off screen left and stay visible throughout the journey */
+    left: -80px;
+    transform: translateY(0);
+  }
+  100% {
+    /* Extended travel distance much further past the right edge of the page */
+    left: calc(100% + 600px);
+    transform: translateY(500px);
+  }
+}

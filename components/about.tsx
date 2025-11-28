@@ -22,10 +22,12 @@ export function About() {
             bg-top 
             w-full
             rounded-xl
-            drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]
+            fill
+            drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)]
           "
+          style={{ overflow: "visible" }}
         >
-          <div className="p-10 md:p-14">
+          <div className="p-10 md:p-16">
             <p
               className="text-3xl leading-relaxed text-foreground max-w-2xl"
               style={{ fontFamily: "var(--font-caveat)" }}
@@ -66,7 +68,7 @@ export function About() {
           alt="Central Limit Theorem"
           width={300}
           height={300}
-          className="absolute top-100 right-6 z-20 rotate-355"
+          className="absolute top-100 -right-80 z-20 rotate-355"
         />
 
         <Image
@@ -74,7 +76,7 @@ export function About() {
           alt="Taylor's Theorem"
           width={400}
           height={400}
-          className="absolute top-100 left-6 z-20 rotate-3"
+          className="absolute top-50 -left-120 z-20 rotate-3"
         />
       </div>
     </section>
