@@ -52,7 +52,7 @@ export function FlyingUFOs() {
             top: ufo.top,
             width: `${ufo.size * 96}px`,
             height: `${ufo.size * 96}px`,
-            animation: `flyUFO ${ufo.duration}s ease-in-out forwards`,
+            animation: `flyUFO ${ufo.duration}s linear forwards`,
           }}
         >
           <Image src="/images/ufo.png" alt="ufo" width={96} height={96} className="w-full h-full" />
