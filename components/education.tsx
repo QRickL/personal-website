@@ -31,9 +31,9 @@ const education = [
     logo: "/images/nus-logo.jpg",
     campusPhoto: "/images/nus-campus.jpg",
     coursework: [
-      { name: "Bayesian Statistics", grade: "🤷‍♂️" },
-      { name: "Design and Analysis of Experiments", grade: "🤷‍♂️" },
-      //{ name: "Econometrics II", grade: "🤷‍♂️" },
+      { name: "Bayesian Statistics", grade: "" },
+      { name: "Design and Analysis of Experiments", grade: "" },
+      //{ name: "Econometrics II", grade: "" },
     ],
   },
   {

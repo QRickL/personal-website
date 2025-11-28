@@ -27,7 +27,7 @@ export function About() {
           "
           style={{ overflow: "visible" }}
         >
-          <div className="p-10 md:p-16">
+          <div className="p-10 md:p-16 py-15">
             <p
               className="text-3xl leading-relaxed text-foreground max-w-2xl"
               style={{ fontFamily: "var(--font-caveat)" }}

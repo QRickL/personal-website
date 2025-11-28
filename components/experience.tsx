@@ -53,17 +53,6 @@ const experiences = [
     ],
   },
   {
-    title: "Webmaster",
-    company: "Actuarial Science Club",
-    period: "Sep 2024 -- Dec 2024",
-    logo: "/images/actsci-club-logo.jpg",
-    overview:
-      "Updating the UWaterloo Actuarial Science Club website",
-    details: [
-      "updated stuff and evetns and photos ADD POINTSEWE",
-    ],
-  },
-  {
     title: "Undergraduate Research Assistant",
     company: "University of Waterloo",
     period: "May 2024 -- Aug 2024",

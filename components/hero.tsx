@@ -25,7 +25,7 @@ export function Hero() {
         alt="cheese"
         width={400}
         height={400}
-        className="absolute top-400 left-[-60%] rotate-[-10deg] z-0 pointer-events-none"
+        className="absolute top-500 left-[-60%] rotate-[-10deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
       <Image
@@ -33,7 +33,7 @@ export function Hero() {
         alt="banh mi"
         width={470}
         height={470}
-        className="absolute top-600 left-[105%] rotate-[20deg] z-0 pointer-events-none"
+        className="absolute top-400 left-[105%] rotate-[20deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
       <Image
