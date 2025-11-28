@@ -4,7 +4,13 @@ export function About() {
   return (
     <section className="space-y-4">
       <div className="mb-6">
-        <Image src="/images/about-me-header.png" alt="About Me" width={400} height={200} className="h-auto" />
+        <Image
+          src="/images/about-me-header.png"
+          alt="About Me"
+          width={400}
+          height={200}
+          className="h-auto"
+        />
       </div>
       <div className="relative">
         <div
@@ -36,7 +42,7 @@ export function About() {
           alt="Blue Crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-70 z-5 rotate-90"
+          className="absolute -top-40 left-70 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -44,7 +50,7 @@ export function About() {
           alt="Red Crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-90 z-5 rotate-120"
+          className="absolute -top-40 left-90 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -52,7 +58,7 @@ export function About() {
           alt="Yellow Crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-110 z-5 rotate-20"
+          className="absolute -top-40 left-110 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image

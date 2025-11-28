@@ -10,25 +10,21 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _caveat = Caveat({ subsets: ["latin"], variable: "--font-caveat" })
 
 export const metadata: Metadata = {
-  title: "My Portfolio - Craft Aesthetic",
-  description: "Personal portfolio website with a craft aesthetic",
-  generator: "v0.app",
+  title: "Rick Li",
+  description: "Rick's personal website",
+  generator: "vibecoded hahaha",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/images/icon.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/images/icon.png",
         media: "(prefers-color-scheme: dark)",
       },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
     ],
-    apple: "/apple-icon.png",
+    apple: "/images/icon.png",
   },
 }
 
