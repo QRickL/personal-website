@@ -49,7 +49,7 @@ export function Hero() {
         alt="iced tea"
         width={200}
         height={200}
-        className="absolute top-1150 left-[120%] rotate-[20deg] z-0 pointer-events-none"
+        className="absolute top-1050 left-[120%] rotate-[20deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
 
