@@ -52,23 +52,6 @@ export function Hero() {
         className="absolute top-1150 left-[120%] rotate-[20deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
-      <Image
-        src="/images/pencil-3.png"
-        alt=""
-        width={500}
-        height={500}
-        className="absolute top-110 left-[72%] rotate-[100deg] z-0 pointer-events-none"
-        style={{ transformOrigin: "top center" }}
-      />
-      <Image
-        src="/images/pencil-4.png"
-        alt=""
-        width={470}
-        height={470}
-        className="absolute top-170 left-[74%] rotate-[130deg] z-0 pointer-events-none"
-        style={{ transformOrigin: "top center" }}
-      />
-      {/* </CHANGE> */}
 
       <div className="flex flex-col md:flex-row items-start justify-between gap-8 relative z-10">
         <div className="flex-1 space-y-4">

@@ -7,15 +7,53 @@ export function About() {
         <Image src="/images/about-me-header.png" alt="About Me" width={400} height={200} className="h-auto" />
       </div>
       <div className="relative">
-        <Image src="/images/about-paper.png" alt="Lined paper background" width={700} height={300} className="w-250 h-130 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]" />
-        <div className="absolute inset-0 flex px-8 md:px-16 py-10 pt-12">
-          <p className="text-3xl leading-relaxed text-foreground max-w-2xl" style={{ fontFamily: "var(--font-caveat)" }}>
-            {"I'm passionate about all things data -- it's brilliant how numbers can tell us engaging stories, complete with morals and character development (if you look hard enough). "}
-            {"My favourite type of data is data about people and what they do! "}
-            {"In the near future, I hope to use my skills to turn data into some profitable decisions... "}
-            {"When I'm not coding or learning new math, you can find me drawing, listening to KPop, or trying new cuisines from all over the world. "}
-          </p>
+        <div
+          className="
+            relative z-10 
+            bg-[url('/images/about-paper.png')]
+            bg-cover 
+            bg-no-repeat 
+            bg-top 
+            w-full
+            rounded-xl
+            drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]
+          "
+        >
+          <div className="p-10 md:p-14">
+            <p
+              className="text-3xl leading-relaxed text-foreground max-w-2xl"
+              style={{ fontFamily: "var(--font-caveat)" }}
+            >
+              I'm passionate about all things data -- it's brilliant how numbers can tell us engaging stories, complete with morals and character development (if you look hard enough).
+              My favourite type of data is data about people and what they do! In the near future, I hope to use my skills to turn data into some profitable decisions...
+              When I'm not coding or learning new math, you can find me drawing, listening to KPop, or trying new cuisines from all over the world.
+            </p>
+          </div>
         </div>
+
+        <Image
+          src="/images/pencil-3.png"
+          alt="Blue Crayon"
+          width={400}
+          height={400}
+          className="absolute -top-40 left-70 z-5 rotate-90"
+        />
+
+        <Image
+          src="/images/pencil-4.png"
+          alt="Red Crayon"
+          width={400}
+          height={400}
+          className="absolute -top-40 left-90 z-5 rotate-120"
+        />
+
+        <Image
+          src="/images/pencil-5.png"
+          alt="Yellow Crayon"
+          width={400}
+          height={400}
+          className="absolute -top-40 left-110 z-5 rotate-20"
+        />
 
         <Image
           src="/images/clt.png"
