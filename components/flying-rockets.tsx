@@ -50,7 +50,7 @@ export function FlyingRockets() {
             animation: `flyRocket ${rocket.duration}s linear forwards`,
           }}
         >
-          <Image src="/images/Untitled 18.png" alt="rocket ship" width={96} height={96} className="w-full h-full" />
+          <Image src="/images/rocket.png" alt="rocket ship" width={96} height={96} className="w-full h-full" />
         </div>
       ))}
 
