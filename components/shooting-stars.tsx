@@ -15,15 +15,15 @@ export function ShootingStars() {
 
   useEffect(() => {
     const createStarGroup = () => {
-      const groupSize = Math.random() > 0.5 ? 2 : 3 // pairs or triplets
-      const baseTop = Math.random() * 90
+      const groupSize = Math.random() > 0.5 ? 2 : (Math.random() > 0.5 ? 1 : (Math.random() > 0.80 ? 3 : 4)) // pairs or triplets
+      const baseTop = Math.random() * 70
       const newStars: Star[] = []
 
       for (let i = 0; i < groupSize; i++) {
         newStars.push({
           id: Date.now() + i,
-          top: `${baseTop + i * 8}%`, // slightly offset vertically
-          delay: i * 0.2, // stagger the start times
+          top: `${baseTop + i * (8 + 2 * Math.random())}%`, // slightly offset vertically
+          delay: i * (0.2 + 0.1 * Math.random()), // stagger the start times
           duration: 10 + Math.random() * 2, // 10-12 seconds
         })
       }

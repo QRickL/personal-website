@@ -198,3 +198,13 @@
     transform: translateY(500px);
   }
 }
+
+/* Added rocket animation that flies horizontally from right to left */
+@keyframes flyUFO {
+  0% {
+    right: -128px;
+  }
+  100% {
+    right: calc(100% + 128px);
+  }
+}
