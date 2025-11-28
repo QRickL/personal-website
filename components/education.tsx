@@ -59,7 +59,7 @@ export function Education() {
   return (
     <section className="space-y-6">
       <div className="mb-6">
-        <Image src="/images/education-header.png" alt="Education" width={850} height={80} className="h-auto" />
+        <Image src="/images/education-header.png" alt="education" width={850} height={80} className="h-auto" />
       </div>
 
       <div className="space-y-6">

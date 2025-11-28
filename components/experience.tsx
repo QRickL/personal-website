@@ -102,7 +102,7 @@ export function Experience() {
   return (
     <section className="space-y-6">
       <div className="mb-6">
-        <Image src="/images/experience-header.png" alt="Experience" width={900} height={60} className="h-auto" />
+        <Image src="/images/experience-header.png" alt="experience" width={900} height={60} className="h-auto" />
       </div>
 
       <div className="space-y-5">

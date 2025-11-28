@@ -46,7 +46,7 @@ export function Technologies() {
   return (
     <section className="space-y-8">
       <div className="mb-6">
-        <Image src="/images/technologies-header.png" alt="Technologies" width={900} height={60} className="h-auto" />
+        <Image src="/images/technologies-header.png" alt="technologies" width={900} height={60} className="h-auto" />
       </div>
 
       <div className="space-y-8">

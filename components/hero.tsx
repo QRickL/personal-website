@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative pt-4 -mb-8">
       <Image
         src="/images/pencil-1.png"
-        alt=""
+        alt="pencil"
         width={280}
         height={700}
         className="absolute top-35 left-[42%] rotate-[60deg] z-0 pointer-events-none"
@@ -14,7 +14,7 @@ export function Hero() {
       />
       <Image
         src="/images/pencil-2.png"
-        alt=""
+        alt="pencil"
         width={280}
         height={700}
         className="absolute top-15 left-[15%] rotate-[250deg] z-0 pointer-events-none"
@@ -22,7 +22,7 @@ export function Hero() {
       />
       <Image
         src="/images/rotating-cheese.gif"
-        alt=""
+        alt="cheese"
         width={400}
         height={400}
         className="absolute top-400 left-[-60%] rotate-[-10deg] z-0 pointer-events-none"
@@ -30,7 +30,7 @@ export function Hero() {
       />
       <Image
         src="/images/rotating-banh-mi.gif"
-        alt=""
+        alt="banh mi"
         width={470}
         height={470}
         className="absolute top-600 left-[105%] rotate-[20deg] z-0 pointer-events-none"
@@ -38,7 +38,7 @@ export function Hero() {
       />
       <Image
         src="/images/rotating-ramen.gif"
-        alt=""
+        alt="ramen noodles"
         width={400}
         height={400}
         className="absolute top-900 left-[-55%] rotate-[10deg] z-0 pointer-events-none"
@@ -46,7 +46,7 @@ export function Hero() {
       />
       <Image
         src="/images/rotating-tea.gif"
-        alt=""
+        alt="iced tea"
         width={200}
         height={200}
         className="absolute top-1150 left-[120%] rotate-[20deg] z-0 pointer-events-none"
@@ -92,7 +92,7 @@ export function Hero() {
         <div className="relative -top-10 -left-10 md:order-last md:-ml-12">
           <img
             src="/images/me.png"
-            alt="Photo of Author"
+            alt="author"
             width={175}
             height={175}
             className="object-contain"
@@ -100,7 +100,7 @@ export function Hero() {
           <div className="absolute -top-0 -right-20 rotate-12 z-10">
             <Image
               src="/images/paperclip.png"
-              alt="Decorative paperclip"
+              alt="paperclip"
               width={125}
               height={125}
               className="object-contain drop-shadow-lg"

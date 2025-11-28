@@ -32,7 +32,7 @@ export function Projects() {
   return (
     <section className="space-y-6 pb-12">
       <div className="mb-6">
-        <Image src="/images/projects-header.png" alt="Projects" width={900} height={60} className="h-auto" />
+        <Image src="/images/projects-header.png" alt="projects" width={900} height={60} className="h-auto" />
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">

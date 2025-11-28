@@ -6,7 +6,7 @@ export function About() {
       <div className="mb-6">
         <Image
           src="/images/about-me-header.png"
-          alt="About Me"
+          alt="about me"
           width={400}
           height={200}
           className="h-auto"
@@ -41,7 +41,7 @@ export function About() {
 
         <Image
           src="/images/pencil-3.png"
-          alt="Blue Crayon"
+          alt="blue crayon"
           width={400}
           height={400}
           className="absolute -top-40 left-70 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
@@ -49,7 +49,7 @@ export function About() {
 
         <Image
           src="/images/pencil-4.png"
-          alt="Red Crayon"
+          alt="red crayon"
           width={400}
           height={400}
           className="absolute -top-40 left-90 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
@@ -57,7 +57,7 @@ export function About() {
 
         <Image
           src="/images/pencil-5.png"
-          alt="Yellow Crayon"
+          alt="yellow crayon"
           width={400}
           height={400}
           className="absolute -top-40 left-110 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
@@ -65,7 +65,7 @@ export function About() {
 
         <Image
           src="/images/clt.png"
-          alt="Central Limit Theorem"
+          alt="central limit theorem"
           width={300}
           height={300}
           className="absolute top-100 -right-80 z-20 rotate-355"
@@ -73,7 +73,7 @@ export function About() {
 
         <Image
           src="/images/taylors-theorem.png"
-          alt="Taylor's Theorem"
+          alt="taylor's theorem"
           width={400}
           height={400}
           className="absolute top-50 -left-120 z-20 rotate-3"

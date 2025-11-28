@@ -54,7 +54,7 @@ export function ShootingStars() {
             animation: `shootingStar ${star.duration}s ease-out ${star.delay}s forwards`,
           }}
         >
-          <Image src="/images/shooting-star.png" alt="" width={64} height={64} className="w-full h-full" />
+          <Image src="/images/shooting-star.png" alt="star" width={64} height={64} className="w-full h-full" />
         </div>
       ))}
     </div>

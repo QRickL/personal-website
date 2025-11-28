@@ -51,7 +51,7 @@ export function ShootingStarsRare() {
             animation: `shootingStarRare ${star.duration}s ease-out ${star.delay}s forwards`,
           }}
         >
-          <Image src="/images/shooting-star-rare.png" alt="" width={64} height={64} className="w-full h-full" />
+          <Image src="/images/shooting-star-rare.png" alt="rare star" width={64} height={64} className="w-full h-full" />
         </div>
       ))}
     </div>
