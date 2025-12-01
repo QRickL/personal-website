@@ -15,14 +15,14 @@ export function ShootingStarsRare() {
 
   useEffect(() => {
     const createStarGroup = () => {
-      const baseTop = Math.random() * 90
+      const baseTop = Math.random() * 60
       const newStars: StarRare[] = []
 
       newStars.push({
         id: Date.now() + 1,
         top: `${baseTop + 1 * 8}%`, // slightly offset vertically
         delay: 1 * 0.2, // stagger the start times
-        duration: 10 + Math.random() * 2, // 10-12 seconds
+        duration: 45 + Math.random() * 4,
       })
 
       setStars((prev) => [...prev, ...newStars])
@@ -30,11 +30,11 @@ export function ShootingStarsRare() {
       // Remove stars after animation completes
       setTimeout(() => {
         setStars((prev) => prev.filter((s) => !newStars.find((ns) => ns.id === s.id)))
-      }, 8000)
+      }, 35000)
     }
 
     // Create star groups periodically
-    const interval = setInterval(createStarGroup, 15000)
+    const interval = setInterval(createStarGroup, 30000)
     createStarGroup() // Initial group
 
     return () => clearInterval(interval)

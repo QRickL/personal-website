@@ -18,7 +18,7 @@ export function FlyingUFOs() {
     const createUFO = () => {
       const top = Math.random() * 100
       const size = 0.8 + Math.random() * 0.5 // scale 0.8x-1.3x
-      const duration = 10 + Math.random() * 4 // 5-9 seconds
+      const duration = 40 + Math.random() * 10
 
       const newUFO: UFO = {
         id: Date.now(),
@@ -33,10 +33,10 @@ export function FlyingUFOs() {
       // Remove UFO after animation completes
       setTimeout(() => {
         setUFOs((prev) => prev.filter((u) => u.id !== newUFO.id))
-      }, duration * 1000)
+      }, duration * 1200)
     }
 
-    const interval = setInterval(createUFO, 10000)
+    const interval = setInterval(createUFO, 38000)
     createUFO() // initial UFO
 
     return () => clearInterval(interval)

@@ -21,7 +21,7 @@ export function FlyingRockets() {
         id: Date.now(),
         top: `${top}%`, 
         delay: 0,
-        duration: 6 + Math.random() * 3, // 5-8 seconds
+        duration: 27 + Math.random() * 8,
       }
 
       setRockets((prev) => [...prev, newRocket])
@@ -29,11 +29,11 @@ export function FlyingRockets() {
       // Remove rocket after animation completes
       setTimeout(() => {
         setRockets((prev) => prev.filter((r) => r.id !== newRocket.id))
-      }, newRocket.duration * 1000)
+      }, newRocket.duration * 1200)
     }
 
     // Create rockets periodically (every 4 seconds)
-    const interval = setInterval(createRocket, 8000)
+    const interval = setInterval(createRocket, 21000)
     createRocket() // Initial rocket
 
     return () => clearInterval(interval)

@@ -24,7 +24,7 @@ export function ShootingStars() {
           id: Date.now() + i,
           top: `${baseTop + i * (8 + 2 * Math.random())}%`, // slightly offset vertically
           delay: i * (0.2 + 0.1 * Math.random()), // stagger the start times
-          duration: 10 + Math.random() * 2, // 10-12 seconds
+          duration: 60 + Math.random() * 5,
         })
       }
 
@@ -33,11 +33,11 @@ export function ShootingStars() {
       // Remove stars after animation completes
       setTimeout(() => {
         setStars((prev) => prev.filter((s) => !newStars.find((ns) => ns.id === s.id)))
-      }, 8000)
+      }, 35000)
     }
 
     // Create star groups periodically
-    const interval = setInterval(createStarGroup, 3000)
+    const interval = setInterval(createStarGroup, 6000)
     createStarGroup() // Initial group
 
     return () => clearInterval(interval)
