@@ -16,7 +16,7 @@ export function ShootingStars() {
   useEffect(() => {
     const createStarGroup = () => {
       const groupSize = Math.random() > 0.5 ? 2 : (Math.random() > 0.5 ? 1 : (Math.random() > 0.80 ? 3 : 4)) // pairs or triplets
-      const baseTop = Math.random() * 70
+      const baseTop = Math.random() * 60
       const newStars: Star[] = []
 
       for (let i = 0; i < groupSize; i++) {
@@ -33,7 +33,7 @@ export function ShootingStars() {
       // Remove stars after animation completes
       setTimeout(() => {
         setStars((prev) => prev.filter((s) => !newStars.find((ns) => ns.id === s.id)))
-      }, 60000)
+      }, 70000 + 20000 * Math.random())
     }
 
     // Create star groups periodically
