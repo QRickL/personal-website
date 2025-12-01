@@ -59,7 +59,7 @@ export function Technologies() {
               </h3>
             </div>
 
-            <div className="bg-[#f8f6f0] p-4 rounded-lg border-2 border-secondary/40 shadow-sm">
+            <div className="bg-[#f8f6f0]/80 p-4 rounded-lg border-2 border-secondary/40 shadow-sm">
               <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
                 {category.technologies.map((tech, index) => (
                   <div

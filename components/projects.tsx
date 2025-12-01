@@ -42,7 +42,7 @@ export function Projects() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-card/70 p-6 rounded-lg border-2 border-primary/20 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 relative block"
+            className="bg-card/80 p-6 rounded-lg border-2 border-primary/20 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 relative block"
           >
             <div className="flex items-start justify-between mb-3">
               <h3 className="text-2xl font-bold text-foreground">{project.title}</h3>

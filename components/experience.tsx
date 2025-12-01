@@ -96,7 +96,7 @@ export function Experience() {
 
       <div className="space-y-5">
         {experiences.map((exp, index) => (
-          <div key={index} className="relative bg-[#FFFEF5]/70 p-4 shadow-md border-2 border-[#8B4513]/20">
+          <div key={index} className="relative bg-[#FFFEF5]/85 p-4 shadow-md border-2 border-[#8B4513]/20">
             <div className="float-right ml-3 mb-3 bg-white p-2 shadow-lg rotate-2 border-8 border-white items-center justify-center">
               <img
                 src={exp.logo || "/placeholder.svg"}

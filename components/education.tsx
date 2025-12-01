@@ -66,7 +66,7 @@ export function Education() {
         {education.map((edu, index) => (
           <div
             key={index}
-            className="bg-[#faf8f3] border-2 border-primary/40 p-6 rounded shadow-md relative"
+            className="bg-[#faf8f3]/85 border-2 border-primary/40 p-6 rounded shadow-md relative"
             style={{
               borderStyle: "solid",
             }}
