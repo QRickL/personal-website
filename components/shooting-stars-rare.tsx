@@ -30,7 +30,7 @@ export function ShootingStarsRare() {
       // Remove stars after animation completes
       setTimeout(() => {
         setStars((prev) => prev.filter((s) => !newStars.find((ns) => ns.id === s.id)))
-      }, 35000)
+      }, 60000)
     }
 
     // Create star groups periodically
