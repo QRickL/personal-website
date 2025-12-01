@@ -10,6 +10,7 @@ const experiences = [
     company: "Arcturus Networks Inc.",
     period: "Sep 2025 -- Dec 2025",
     logo: "/images/arcturus-networks-logo.jpg",
+    caption: "Company logo",
     overview: "Training, quantization, and deployment of state-of-the-art models for edge inference",
     details: [
       "Trained a CNN-based object detection model to detect defective factory parts using Pytorch and OpenCV, ultimately achieving a 92% mAP after integration and deployment on the backend of a C++ distributed inference pipeline",
@@ -22,6 +23,7 @@ const experiences = [
     company: "Vision and Image Processing Lab",
     period: "May 2025 -- Aug 2025",
     logo: "/images/viplab-logo.jpg",
+    caption: "Aria Glasses",
     overview:
       "Applications of Meta's Project Aria glasses",
     details: [
@@ -33,6 +35,7 @@ const experiences = [
     company: "Equitable Life",
     period: "Jan 2025 -- Apr 2025",
     logo: "/images/equitable-logo.jpg",
+    caption: "My boss!",
     overview:
       "Automation of simple actuarial pricing tasks and processing client emails with NLP",
     details: [
@@ -46,6 +49,7 @@ const experiences = [
     company: "Math Tutoring Centre",
     period: "Sep 2024 -- Dec 2024",
     logo: "/images/ugrad-teaching-logo.jpg",
+    caption: "MC building",
     overview:
       "Helping math, CS, and science students with Calculus I, II, III",
     details: [
@@ -57,6 +61,7 @@ const experiences = [
     company: "University of Waterloo",
     period: "May 2024 -- Aug 2024",
     logo: "/images/amath-logo.jpg",
+    caption: "With my coworkers",
     overview:
       "Developing algorithms to predict stationary points for microswimmers in Stokes flow",
     details: [
@@ -71,6 +76,7 @@ const experiences = [
     company: "University of California: Santa Cruz",
     period: "Jun 2022 -- Aug 2022",
     logo: "/images/ucsc-logo.jpg",
+    caption: "N. Gehrels Swift Telescope",
     overview:
       "Building data pipelines to help astronomers study the Mrk 421 blazar",
     details: [
@@ -97,7 +103,7 @@ export function Experience() {
       <div className="space-y-5">
         {experiences.map((exp, index) => (
           <div key={index} className="relative bg-[#FFFEF5]/85 p-4 shadow-md border-2 border-[#8B4513]/20">
-            <div className="float-right ml-3 mb-3 bg-white p-2 shadow-lg rotate-2 border-8 border-white items-center justify-center">
+            <div className="float-right ml-3 mb-3 bg-white p-2 shadow-xl rotate-2 border-8 border-white items-center justify-center">
               <img
                 src={exp.logo || "/placeholder.svg"}
                 alt={`${exp.company} logo`}
@@ -105,15 +111,16 @@ export function Experience() {
               />
               <div
                 className="text-center text-xs mt-1 text-muted-foreground"
-                style={{ fontFamily: "var(--font-caveat)" }}
+                style={{ fontFamily: "var(--font-mono)" }}
               >
-                {exp.company}
+                {/* {exp.caption} */}
+                {""}
               </div>
             </div>
 
             <h3 className="text-2xl font-bold text-foreground mb-0.5">{exp.title}</h3>
             <p className="text-lg text-primary font-semibold mb-1">{exp.company}</p>
-            <p className="text-sm text-muted-foreground mb-3 font-mono">{exp.period}</p>
+            <p className="text-sm text-muted-foreground mb-3 font-semibold">{exp.period}</p>
 
             <p className="text-foreground leading-relaxed mb-3">{exp.overview}</p>
 
