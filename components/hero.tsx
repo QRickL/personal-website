@@ -12,6 +12,7 @@ export function Hero() {
         className="absolute top-35 left-[42%] rotate-[60deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
+
       <Image
         src="/images/pencil-2.png"
         alt="pencil"
@@ -20,38 +21,44 @@ export function Hero() {
         className="absolute top-15 left-[15%] rotate-[250deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
-      <Image
-        src="/images/rotating-cheese.gif"
+
+      {
+      /* <Image
+        src="/videos/rotating-cheese.gif"
         alt="cheese"
         width={400}
         height={400}
         className="absolute top-500 left-[-60%] rotate-[-10deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
+
       <Image
-        src="/images/rotating-banh-mi.gif"
+        src="/videos/rotating-banh-mi.gif"
         alt="banh mi"
         width={470}
         height={470}
         className="absolute top-400 left-[105%] rotate-[20deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
+
       <Image
-        src="/images/rotating-ramen.gif"
+        src="/videos/rotating-ramen.gif"
         alt="ramen noodles"
         width={400}
         height={400}
         className="absolute top-900 left-[-55%] rotate-[10deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
+
       <Image
-        src="/images/rotating-tea.gif"
+        src="/videos/rotating-tea.gif"
         alt="iced tea"
         width={200}
         height={200}
         className="absolute top-1050 left-[120%] rotate-[20deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
+      */}
 
       <div className="flex flex-col md:flex-row items-start justify-between gap-8 relative z-10">
         <div className="flex-1 space-y-4">
