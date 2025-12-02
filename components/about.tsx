@@ -7,29 +7,24 @@ export function About() {
         <Image
           src="/images/about-me-header.png"
           alt="about me"
-          width={450}
-          height={225}
+          width={350}
+          height={175}
           className="h-auto"
         />
       </div>
-      <div className="relative">
-        <div
-          className="
-            relative z-10 
-            bg-[url('/images/about-paper.png')]
-            bg-cover 
-            bg-no-repeat 
-            bg-top 
-            w-full
-            rounded-xl
-            fill
-            drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)]
-          "
-          style={{ overflow: "visible" }}
-        >
-          <div className="p-10 md:p-10 py-120">
+        <div className="relative">
+          <div
+            className="
+              relative z-10
+              bg-[#f8f6f0]/85
+              rounded-3xl 
+              border-2 border-secondary/40 
+              shadow-xl
+            "
+          >
+          <div className="p-6 md:p-8">
             <p
-              className="text-xl leading-relaxed text-foreground max-w-2xl"
+              className="text-2xl leading-relaxed text-foreground"
               //style={{ fontFamily: "var(--font-caveat)" }}
               style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
             >
@@ -45,15 +40,17 @@ export function About() {
           alt="blue crayon"
           width={400}
           height={400}
-          className="absolute -top-35 left-90 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          //className="absolute -top-35 left-85 z-5 rotate-100 drop-shadow-[0_8px_16px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-85 z-5 rotate-100"
         />
 
         <Image
           src="/images/pencil-4.png"
           alt="red crayon"
-          width={400}
-          height={400}
-          className="absolute -top-35 left-110 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          width={350}
+          height={350}
+          //className="absolute -top-35 left-110 z-5 rotate-125 drop-shadow-[0_8px_16px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-110 z-5 rotate-125"
         />
 
         <Image
@@ -61,7 +58,8 @@ export function About() {
           alt="yellow crayon"
           width={400}
           height={400}
-          className="absolute -top-35 left-135 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          //className="absolute -top-35 left-130 z-5 rotate-15 drop-shadow-[0_8px_16px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-130 z-5 rotate-15"
         />
 
         <Image

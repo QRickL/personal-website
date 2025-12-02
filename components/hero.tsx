@@ -114,7 +114,8 @@ export function Hero() {
               alt="paperclip"
               width={125}
               height={125}
-              className="object-contain drop-shadow-lg"
+              //className="object-contain drop-shadow-lg"
+              className="object-contain"
             />
           </div>
         </div>

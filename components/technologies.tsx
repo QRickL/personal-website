@@ -55,9 +55,10 @@ export function Technologies() {
             <div className="flex items-center gap-2">
               <category.icon className="w-6 h-6 text-accent" />
               <h3
-                className="text-2xl font-bold text-primary"
-                style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}>
-                {category.title}
+                className="text-2xl font-bold text-primary font-semi"
+                //style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}>
+                //style={{ fontFamily: 'semi' }}
+              >{category.title}
               </h3>
             </div>
 
