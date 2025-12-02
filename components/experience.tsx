@@ -37,7 +37,7 @@ const experiences = [
     logo: "/images/equitable-logo.jpg",
     caption: "My boss!",
     overview:
-      "Automation of simple actuarial pricing tasks and email processing with NLP",
+      "Task automation and email processing with NLP",
     details: [
       "Saved 80+ hours for 12 actuaries by developing an email processing pipeline which classifies 1,200+ client requests per year with 94% accuracy using natural language processing in Python and PyWin32",
       "Sped up insurance pricing times by 33% by optimizing database queries and introducing multi-threading to Python modules",
@@ -52,10 +52,10 @@ const experiences = [
     logo: "/images/ugrad-teaching-logo.jpg",
     caption: "MC building",
     overview:
-      "Helping math, CS, and science students with Calculus I, II, III",
+      "Teaching math, CS, and science students Calculus I, II, and III",
     details: [
       "TA'ed for three courses totalling 1,800+ students during the Fall 2024 academic term",
-      "Personally provided 20+ students with quiz preparation every week, doing computations and proofs involving sequences, limits, differentiation, related rates, and power series",
+      "Personally helped 20+ students with quiz preparation every week, demonstrating and explaning computations and proofs involving sequences, limits, differentiation, related rates, and power series",
       "Led in-person review sessions for the Calculus I midterm and final exams",
       "Gave academic advice such as course selections and chooing majors/specializations to first-year students",
     ],

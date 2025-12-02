@@ -28,9 +28,10 @@ export function About() {
               //style={{ fontFamily: "var(--font-caveat)" }}
               style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
             >
-              I'm passionate about all things data -- it's brilliant how numbers can tell us engaging stories, complete with morals and character development (if you look hard enough).
-              My favourite type of data is data about people and what they do! In the near future, I hope to use my skills to turn data into some profitable decisions...
-              When I'm not coding or learning new math, you can find me drawing, listening to KPop, or trying new cuisines from all over the world.
+              I'm Rick, a third-year data science student at UWaterloo.
+              I enjoy combining my technical skills with my creative side to build whatever I can think of.
+              Some topics I'm currently interested in are the impacts of AI on education, how user data from social media apps is being used, and a field of math called measure theory.
+              In my free time, you'll find me drawing, listening to KPop, or trying foods from all over the world.
             </p>
           </div>
         </div>
@@ -67,7 +68,7 @@ export function About() {
           alt="central limit theorem"
           width={300}
           height={300}
-          className="absolute top-50 -right-80 z-20 rotate-355"
+          className="absolute top-50 -right-90 z-20 rotate-355"
         />
 
         <Image
