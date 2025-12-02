@@ -8,7 +8,7 @@ const education = [
   {
     degree: "University of Waterloo",
     school: "Bachelor of Mathematics, Data Science",
-    year: "Sep 2023 -- Apr 2027",
+    year: "Sep 2023 — Apr 2027",
     gpa: "3.96/4.0",
     logo: "/images/uwaterloo-logo.jpg",
     campusPhoto: "/images/uwaterloo-campus.jpg",
@@ -26,7 +26,7 @@ const education = [
   {
     degree: "National University of Singapore",
     school: "Exchange Semester",
-    year: "Jan 2026 -- May 2026",
+    year: "Jan 2026 — May 2026",
     gpa: "🥥 / 🌴",
     logo: "/images/nus-logo.jpg",
     campusPhoto: "/images/nus-campus.jpg",
@@ -39,7 +39,7 @@ const education = [
   {
     degree: "University of British Columbia",
     school: "Concurrent Studies",
-    year: "Sep 2022 -- Dec 2022",
+    year: "Sep 2022 — Dec 2022",
     gpa: "4.33/4.33",
     logo: "/images/ubc-logo.jpg",
     campusPhoto: "/images/ubc-campus.jpg",
@@ -88,7 +88,7 @@ export function Education() {
                   <div>
                     <h3 className="text-2xl font-bold text-primary mb-1">{edu.degree}</h3>
                     <p className="text-lg text-foreground font-medium">{edu.school}</p>
-                    <p className="text-sm text-muted-foreground font-mono">{edu.year}</p>
+                    <p className="text-md text-muted-foreground font-semi">{edu.year}</p>
                   </div>
                   <div
                     className="bg-secondary px-4 py-2 -rotate-1 border-2 border-secondary/50"

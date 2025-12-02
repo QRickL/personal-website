@@ -8,7 +8,7 @@ const experiences = [
   {
     title: "Machine Learning Engineer Intern",
     company: "Arcturus Networks Inc.",
-    period: "Sep 2025 -- Dec 2025",
+    period: "Sep 2025 — Dec 2025",
     logo: "/images/arcturus-networks-logo.jpg",
     caption: "Company logo",
     overview: "Training, quantization, and deployment of state-of-the-art models for edge inference",
@@ -21,7 +21,7 @@ const experiences = [
   {
     title: "Undergraduate Research Assistant",
     company: "Vision and Image Processing Lab",
-    period: "May 2025 -- Aug 2025",
+    period: "May 2025 — Aug 2025",
     logo: "/images/viplab-logo.jpg",
     caption: "Aria Glasses",
     overview:
@@ -33,7 +33,7 @@ const experiences = [
   {
     title: "Software Developer Intern",
     company: "Equitable Life",
-    period: "Jan 2025 -- Apr 2025",
+    period: "Jan 2025 — Apr 2025",
     logo: "/images/equitable-logo.jpg",
     caption: "My boss!",
     overview:
@@ -47,7 +47,7 @@ const experiences = [
   {
     title: "Undergraduate Teaching Assistant",
     company: "Math Tutoring Centre",
-    period: "Sep 2024 -- Dec 2024",
+    period: "Sep 2024 — Dec 2024",
     logo: "/images/ugrad-teaching-logo.jpg",
     caption: "MC building",
     overview:
@@ -59,7 +59,7 @@ const experiences = [
   {
     title: "Undergraduate Research Assistant",
     company: "University of Waterloo",
-    period: "May 2024 -- Aug 2024",
+    period: "May 2024 — Aug 2024",
     logo: "/images/amath-logo.jpg",
     caption: "With my coworkers",
     overview:
@@ -74,7 +74,7 @@ const experiences = [
   {
     title: "Data Science Intern",
     company: "University of California: Santa Cruz",
-    period: "Jun 2022 -- Aug 2022",
+    period: "Jun 2022 — Aug 2022",
     logo: "/images/ucsc-logo.jpg",
     caption: "N. Gehrels Swift Telescope",
     overview:
@@ -120,7 +120,7 @@ export function Experience() {
 
             <h3 className="text-2xl font-bold text-foreground mb-0.5">{exp.title}</h3>
             <p className="text-lg text-primary font-semibold mb-1">{exp.company}</p>
-            <p className="text-sm text-muted-foreground mb-3 font-semibold">{exp.period}</p>
+            <p className="text-md text-muted-foreground mb-3 font-semi">{exp.period}</p>
 
             <p className="text-foreground leading-relaxed mb-3">{exp.overview}</p>
 

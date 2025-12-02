@@ -9,9 +9,9 @@ const projects = [
     link: "https://github.com/QRickL/LearnPlusPlus",
   },
   {
-    title: "Mini-C Compilers",
+    title: "Mini-C Compiler",
     description: "Compiler for a subset of the C language with support for basic control flow and I/O. Comes with compiler optimizations to increase execution speed and minimize binary size.",
-    tags: ["C/C++", "MIPS Assembly", "Compiler"],
+    tags: ["C/C++", "MIPS Assembly", "Compilers"],
     link: "https://github.com/QRickL/Mini-C-Compiler",
   },
   {

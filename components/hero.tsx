@@ -62,11 +62,15 @@ export function Hero() {
 
       <div className="flex flex-col md:flex-row items-start justify-between gap-8 relative z-10">
         <div className="flex-1 space-y-4">
-          <h1 className="text-6xl md:text-7xl font-bold text-primary" style={{ fontFamily: "var(--font-serif)" }}>
+          <h1 className="text-6xl md:text-7xl font-bold text-primary" style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}>
             Rick Li
           </h1>
-          <p className="text-2xl text-muted-foreground font-mono text-stone-900">Aspiring statistician & data scientist...</p>
-
+          <p
+            className="text-2xl text-muted-foreground text-stone-900"
+            style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
+          >
+            Aspiring statistician & data scientist...
+          </p>
           <div className="flex gap-4 pt-2">
             <a
               href="https://www.linkedin.com/in/q-rick-li/"

@@ -7,8 +7,8 @@ export function About() {
         <Image
           src="/images/about-me-header.png"
           alt="about me"
-          width={400}
-          height={200}
+          width={500}
+          height={250}
           className="h-auto"
         />
       </div>
@@ -44,7 +44,7 @@ export function About() {
           alt="blue crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-70 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-40 left-90 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -52,7 +52,7 @@ export function About() {
           alt="red crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-90 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-40 left-110 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -60,7 +60,7 @@ export function About() {
           alt="yellow crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-110 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-40 left-135 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
