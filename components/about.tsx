@@ -67,7 +67,7 @@ export function About() {
           alt="central limit theorem"
           width={300}
           height={300}
-          className="absolute top-100 -right-80 z-20 rotate-355"
+          className="absolute top-50 -right-80 z-20 rotate-355"
         />
 
         <Image
@@ -75,7 +75,7 @@ export function About() {
           alt="taylor's theorem"
           width={400}
           height={400}
-          className="absolute top-50 -left-120 z-20 rotate-3"
+          className="absolute top-80 -left-120 z-20 rotate-3"
         />
       </div>
     </section>

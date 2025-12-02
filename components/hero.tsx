@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative pt-4 -mb-8">
+    <section className="relative pt-4 -mb-8 pb-12 md:pb-0">
       <Image
         src="/images/pencil-1.png"
         alt="pencil"
@@ -19,6 +19,15 @@ export function Hero() {
         width={280}
         height={700}
         className="absolute top-15 left-[15%] rotate-[250deg] z-0 pointer-events-none"
+        style={{ transformOrigin: "top center" }}
+      />
+
+      <Image
+        src="/images/paperclip.png"
+        alt="pencil"
+        width={125}
+        height={125}
+        className="absolute -top-12 left-[10%] rotate-[33deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
 
@@ -60,13 +69,13 @@ export function Hero() {
       />
       */}
 
-      <div className="flex flex-col md:flex-row items-start justify-between gap-8 relative z-10">
+      <div className="flex md:flex-row items-start justify-between gap-8 relative z-10">
         <div className="flex-1 space-y-4">
           <h1 className="text-6xl md:text-7xl font-bold text-primary" style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}>
             Rick Li
           </h1>
           <p
-            className="text-2xl text-muted-foreground text-stone-900"
+            className="text-2xl text-muted-foreground text-stone-900 min-w-[220px]"
             style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
           >
             Aspiring statistician & data scientist...
@@ -106,9 +115,10 @@ export function Hero() {
             alt="author"
             width={175}
             height={175}
-            className="object-contain"
+            className="object-contain ml-auto relative z-10"
           />
-          <div className="absolute -top-0 -right-20 rotate-12 z-10">
+
+          <div className="absolute top-10 -right-5 rotate-310 z-0">
             <Image
               src="/images/paperclip.png"
               alt="paperclip"
@@ -118,6 +128,7 @@ export function Hero() {
               className="object-contain"
             />
           </div>
+
         </div>
       </div>
     </section>

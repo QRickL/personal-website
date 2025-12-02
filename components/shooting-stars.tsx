@@ -33,11 +33,11 @@ export function ShootingStars() {
       // Remove stars after animation completes
       setTimeout(() => {
         setStars((prev) => prev.filter((s) => !newStars.find((ns) => ns.id === s.id)))
-      }, 70000 + 20000 * Math.random())
+      }, 70000)
     }
 
     // Create star groups periodically
-    const interval = setInterval(createStarGroup, 6000)
+    const interval = setInterval(createStarGroup, 5000 + 2000 * Math.random())
     createStarGroup() // Initial group
 
     return () => clearInterval(interval)
