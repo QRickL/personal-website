@@ -7,8 +7,8 @@ export function About() {
         <Image
           src="/images/about-me-header.png"
           alt="about me"
-          width={500}
-          height={250}
+          width={450}
+          height={225}
           className="h-auto"
         />
       </div>
@@ -27,10 +27,11 @@ export function About() {
           "
           style={{ overflow: "visible" }}
         >
-          <div className="p-10 md:p-16 py-15">
+          <div className="p-10 md:p-10 py-120">
             <p
-              className="text-3xl leading-relaxed text-foreground max-w-2xl"
-              style={{ fontFamily: "var(--font-caveat)" }}
+              className="text-xl leading-relaxed text-foreground max-w-2xl"
+              //style={{ fontFamily: "var(--font-caveat)" }}
+              style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
             >
               I'm passionate about all things data -- it's brilliant how numbers can tell us engaging stories, complete with morals and character development (if you look hard enough).
               My favourite type of data is data about people and what they do! In the near future, I hope to use my skills to turn data into some profitable decisions...
@@ -44,7 +45,7 @@ export function About() {
           alt="blue crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-90 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-90 z-5 rotate-90 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -52,7 +53,7 @@ export function About() {
           alt="red crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-110 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-110 z-5 rotate-120 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image
@@ -60,7 +61,7 @@ export function About() {
           alt="yellow crayon"
           width={400}
           height={400}
-          className="absolute -top-40 left-135 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
+          className="absolute -top-35 left-135 z-5 rotate-20 drop-shadow-[0_8px_12px_rgba(0,0,0,0.25)]"
         />
 
         <Image

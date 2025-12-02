@@ -37,11 +37,12 @@ const experiences = [
     logo: "/images/equitable-logo.jpg",
     caption: "My boss!",
     overview:
-      "Automation of simple actuarial pricing tasks and processing client emails with NLP",
+      "Automation of simple actuarial pricing tasks and email processing with NLP",
     details: [
       "Saved 80+ hours for 12 actuaries by developing an email processing pipeline which classifies 1,200+ client requests per year with 94% accuracy using natural language processing in Python and PyWin32",
       "Sped up insurance pricing times by 33% by optimizing database queries and introducing multi-threading to Python modules",
       "Reduced crash reports by 40% for a Python web scrapping application by adding exception safety and handling",
+      "Performed financial forecasts in Excel to answer 200+ client inquiries about life insurance policies and Canadian tax",
     ],
   },
   {
@@ -53,7 +54,10 @@ const experiences = [
     overview:
       "Helping math, CS, and science students with Calculus I, II, III",
     details: [
-      "BRO PUT SOMETHINERE HERE TOOOO",
+      "TA'ed for three courses totalling 1,800+ students during the Fall 2024 academic term",
+      "Personally provided 20+ students with quiz preparation every week, doing computations and proofs involving sequences, limits, differentiation, related rates, and power series",
+      "Led in-person review sessions for the Calculus I midterm and final exams",
+      "Gave academic advice such as course selections and chooing majors/specializations to first-year students",
     ],
   },
   {
@@ -69,6 +73,7 @@ const experiences = [
       "Increased prediction accuracy by 29% by allowing the algorithm to update its own parameters to adapt to live data",
       "Increased algorithm speed by 500%+ by replacing redundant computations with cached results from previous runs",
       "Streamlined analysis of dynamical systems for 5 mathematicians by implementing root-finding and gradient descent algorithms to determine zero-velocity points within abstract mathematical spaces",
+      "Effectively communicated research findings to 35+ students and 10+ faculty members during end-of-term departmental conference"
     ],
   },
   {
@@ -142,12 +147,12 @@ export function Experience() {
             </button>
 
             {expandedIndex === index && (
-              <div className="mt-3 pt-3 border-t-2 border-dashed border-primary/20">
+              <div className="mt-3 pt-3 border-t-3 border-dashed border-primary/20">
                 <h4 className="font-semibold text-foreground mb-2">Key Achievements:</h4>
                 <ul className="space-y-2">
                   {exp.details.map((detail, detailIndex) => (
                     <li key={detailIndex} className="flex gap-2 text-foreground leading-relaxed">
-                      <span className="text-accent mt-1">•</span>
+                      <span className="text-accent mt-0">•</span>
                       <span>{detail}</span>
                     </li>
                   ))}
