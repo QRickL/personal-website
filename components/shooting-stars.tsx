@@ -15,8 +15,8 @@ export function ShootingStars() {
 
   useEffect(() => {
     const createStarGroup = () => {
-      const groupSize = Math.random() > 0.5 ? 2 : (Math.random() > 0.5 ? 1 : (Math.random() > 0.80 ? 3 : 4)) // pairs or triplets
-      const baseTop = Math.random() * 60
+      const groupSize = Math.random() > 0.5 ? 2 : (Math.random() > 0.5 ? 1 : (Math.random() > 0.80 ? 3 : 4))
+      const baseTop = Math.random() * 80 - 20
       const newStars: Star[] = []
 
       for (let i = 0; i < groupSize; i++) {
