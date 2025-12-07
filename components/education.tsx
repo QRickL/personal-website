@@ -128,7 +128,7 @@ export function Education() {
                 <div className="flex flex-col md:flex-row gap-6">
                   {/* Left column: Coursework */}
                   <div className="flex-1">
-                    <h4 className="text-lg font-bold text-primary mb-3" style={{ fontFamily: "var(--font-caveat)" }}>
+                    <h4 className="text-lg font-bold text-primary mb-3" style={{ fontFamily: "var(--font-bold)" }}>
                       Relevant Coursework
                     </h4>
                     <div className="grid gap-2">
