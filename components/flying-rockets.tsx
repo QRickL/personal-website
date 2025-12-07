@@ -32,8 +32,8 @@ export function FlyingRockets() {
       }, newRocket.duration * 1200)
     }
 
-    // Create rockets periodically (every 4 seconds)
-    const interval = setInterval(createRocket, 21000)
+    // Create rockets periodically
+    const interval = setInterval(createRocket, 27000)
     createRocket() // Initial rocket
 
     return () => clearInterval(interval)

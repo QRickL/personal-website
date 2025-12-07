@@ -34,7 +34,7 @@ export function ShootingStarsRare() {
     }
 
     // Create star groups periodically
-    const interval = setInterval(createStarGroup, 30000)
+    const interval = setInterval(createStarGroup, 43000)
     createStarGroup() // Initial group
 
     return () => clearInterval(interval)

@@ -15,7 +15,7 @@ export function ShootingStars() {
 
   useEffect(() => {
     const createStarGroup = () => {
-      const groupSize = Math.random() > 0.5 ? 2 : (Math.random() > 0.5 ? 1 : (Math.random() > 0.80 ? 3 : 4))
+      const groupSize = Math.random() > 0.5 ? 1 : (Math.random() > 0.5 ? 2 : (Math.random() > 0.75 ? 3 : 4))
       const baseTop = Math.random() * 80 - 20
       const newStars: Star[] = []
 
@@ -37,7 +37,7 @@ export function ShootingStars() {
     }
 
     // Create star groups periodically
-    const interval = setInterval(createStarGroup, 5000 + 2000 * Math.random())
+    const interval = setInterval(createStarGroup, 7000 + 2000 * Math.random())
     createStarGroup() // Initial group
 
     return () => clearInterval(interval)

@@ -36,7 +36,7 @@ export function FlyingUFOs() {
       }, duration * 1200)
     }
 
-    const interval = setInterval(createUFO, 38000)
+    const interval = setInterval(createUFO, 42000)
     createUFO() // initial UFO
 
     return () => clearInterval(interval)
