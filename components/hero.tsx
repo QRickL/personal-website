@@ -5,6 +5,15 @@ export function Hero() {
   return (
     <section className="relative pt-4 -mb-8 pb-12 md:pb-0">
       <Image
+        src="/images/paperclip.png"
+        alt="pencil"
+        width={125}
+        height={125}
+        className="absolute -top-12 left-[10%] rotate-[33deg] z-0 pointer-events-none"
+        style={{ transformOrigin: "top center" }}
+      />
+
+      <Image
         src="/images/pencil-1.png"
         alt="pencil"
         width={280}
@@ -14,20 +23,11 @@ export function Hero() {
       />
 
       <Image
-        src="/images/pencil-2.png"
+        src="/images/pencil-1.png"
         alt="pencil"
         width={280}
         height={700}
         className="absolute top-15 left-[15%] rotate-[250deg] z-0 pointer-events-none"
-        style={{ transformOrigin: "top center" }}
-      />
-
-      <Image
-        src="/images/paperclip.png"
-        alt="pencil"
-        width={125}
-        height={125}
-        className="absolute -top-12 left-[10%] rotate-[33deg] z-0 pointer-events-none"
         style={{ transformOrigin: "top center" }}
       />
 
