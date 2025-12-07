@@ -15,13 +15,13 @@ Visit the site now: [rickli.vercel.app](rickli.vercel.app)
 ## To-do
 
 - [ ] Finish filling in experiences
-- [ ] Upload a picture from NUS
+- [x] Upload a picture from NUS
 - [x] Swap about me background from paper to text box
 - [ ] Add some more formulas to the side
 - [ ] Navigation bar at the top
 - [x] Fix stars disappear too early
 - [x] Fix rockets and ufos don't fly completely off the screen
-- [ ] compressed images so site loads faster
+- [x] Compressed images so site loads faster
 - [ ] Static planets to the side
 - [ ] Find a more memorable photo for Arcturus Networks
 - [ ] Find a better photo for VIP lab research
