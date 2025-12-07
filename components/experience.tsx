@@ -28,7 +28,8 @@ const experiences = [
     overview:
       "Applications of Meta's Project Aria glasses",
     details: [
-      "PUT SOME BULLET POINTS HERE",
+      "Utilized Meta's Segment Anything Model to track and determine foods ingested by users wearing the Meta Project Aria Glasses",
+      "Collected 10+ GB of ego-centric video data featuring various types and configurations of foods for future research",
     ],
   },
   {
@@ -68,7 +69,7 @@ const experiences = [
     logo: "/images/amath-logo.jpg",
     caption: "With my coworkers",
     overview:
-      "Developing algorithms to predict stationary points for microswimmers in Stokes flow",
+      "Prediction algorithms for staionary points of microswimmers in Stokes flow",
     details: [
       "Designed an algorithm to predict where bacteria accumulate in viscous fluids using differential equations and MATLAB",
       "Increased prediction accuracy by 29% by allowing algorithm to dynamically update step-size and search space based on performance and local conditions",
@@ -89,7 +90,7 @@ const experiences = [
       "Saved 260+ hours of manual data processing per year by engineering an ETL pipeline that transforms raw telescope data into clean CSVs and SQL-compatible database tables using Python, Pandas, and PostgreSQL",
       "Accelerated research insights for 15+ astronomers by designing interactive data visuals using NumPy and Matplotlib",
       "Led development of a web application using SQL, React, and Docker to provide clean astronomical data and live dashboards to 70+ scientists across 10+ partnered labs and universities",
-      "Gave presentation on methods and pipeline architecture to 400+ high school and undergraduate students"
+      "Gave presentation on methods and pipeline architecture to audience of 400+ high schoolers, undergraduates, and UCSC faculty"
     ],
   },
 ]
