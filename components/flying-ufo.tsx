@@ -76,8 +76,11 @@ export function FlyingUFOs() {
           80% {
             transform: translateX(-100vw) translateY(-1.5vw) rotate(0deg);
           }
-          100% {
+          95% {
             transform: translateX(-125vw) translateY(0) rotate(2deg);
+          }
+          100% {
+            transform: translateX(-150vw) translateY(2) rotate(-4deg);
           }
         }
       `}</style>

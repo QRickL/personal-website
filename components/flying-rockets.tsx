@@ -71,9 +71,13 @@ export function FlyingRockets() {
           80% {
             transform: translateX(-100vw) rotate(0deg);
           }
+
+          95% {
+            transform: translateX(-125vw) rotate(-5deg);
+          }
         
           100% {
-            transform: translateX(-125vw) translateY(-2vw) rotate(5deg);
+            transform: translateX(-150vw) translateY(-2vw) rotate(15deg);
           }
         }
       `}</style>
