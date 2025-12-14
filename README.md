@@ -1,4 +1,4 @@
-This is my personal website -- thanks for taking the time to check it out 😃
+This is my personal website — thanks for taking the time to check it out 😃
 
 ## How to Run
 
@@ -10,7 +10,7 @@ npm run dev
 
 The website will be at [localhost:3000](http://localhost:3000) and will auto-update as files are changed.
 
-Visit the site now: [rickli.vercel.app](rickli.vercel.app)
+Visit the site now: [rickli.ca](https://www.rickli.ca)
 
 ## To-do
 
@@ -23,6 +23,8 @@ Visit the site now: [rickli.vercel.app](rickli.vercel.app)
 - [x] Fix rockets and ufos don't fly completely off the screen
 - [x] Compressed images so site loads faster
 - [ ] Static planets to the side
-- [ ] Find a more memorable photo for Arcturus Networks
+- [ ] Find a better photo for Arcturus Networks
 - [x] Find a better photo for VIP lab research
 - [ ] Build more projects so I can add them to the site!!!
+- [ ] Make the icons pretty
+- [ ] Redraw education, technologies header
