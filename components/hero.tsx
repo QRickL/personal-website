@@ -109,12 +109,12 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative -top-10 -left-10 md:order-last md:-ml-12">
+        <div className="relative -top-15 -left-05 md:order-last md:-ml-12">
           <img
             src="/images/photo-me.png"
             alt="rick"
-            width={175}
-            height={175}
+            width={200}
+            height={200}
             className="object-contain ml-auto relative z-10"
           />
 
