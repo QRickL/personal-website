@@ -14,7 +14,7 @@ Visit the site now: [rickli.vercel.app](rickli.vercel.app)
 
 ## To-do
 
-- [ ] Finish filling in experiences
+- [x] Finish filling in experiences
 - [x] Upload a picture from NUS
 - [x] Swap about me background from paper to text box
 - [ ] Add some more formulas to the side
@@ -24,5 +24,5 @@ Visit the site now: [rickli.vercel.app](rickli.vercel.app)
 - [x] Compressed images so site loads faster
 - [ ] Static planets to the side
 - [ ] Find a more memorable photo for Arcturus Networks
-- [ ] Find a better photo for VIP lab research
+- [x] Find a better photo for VIP lab research
 - [ ] Build more projects so I can add them to the site!!!
