@@ -23,7 +23,7 @@ Visit the site now: [rickli.ca](https://www.rickli.ca)
 - [x] Fix rockets and ufos don't fly completely off the screen
 - [x] Compressed images so site loads faster
 - [ ] Static planets to the side
-- [ ] Find a better photo for Arcturus Networks
+- [x] Find a better photo for Arcturus Networks
 - [x] Find a better photo for VIP lab research
 - [ ] Build more projects so I can add them to the site!!!
 - [ ] Make the icons pretty
