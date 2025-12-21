@@ -78,7 +78,7 @@ export function Hero() {
             className="text-2xl text-muted-foreground text-stone-900 min-w-[220px]"
             style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
           >
-            Aspiring software engineer & data scientist...
+            Aspiring data scientist & software engineer...
           </p>
           <div className="flex gap-4 pt-2">
             <a
