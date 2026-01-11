@@ -28,7 +28,7 @@ export function About() {
               //style={{ fontFamily: "var(--font-caveat)" }}
               style={{ fontFamily: '"Comic Sans MS", "Comic Sans", caveat' }}
             >
-              I'm Rick, a third-year data science student at UWaterloo.
+              I'm Rick, a third-year computer science and statistics student at UWaterloo.
               I enjoy combining my technical skills with my creative side to build whatever I can think of.
               Some topics I'm currently interested in are the impacts of AI on education, how user data from social media apps is being used, and a field of math called measure theory.
               In my free time, you'll find me drawing, listening to KPop, or trying foods from all over the world.

@@ -7,7 +7,7 @@ import Image from "next/image"
 const education = [
   {
     degree: "University of Waterloo",
-    school: "Bachelor of Mathematics, Data Science",
+    school: "Bachelor's Degree, Computer Science and Statistics",
     year: "Sep 2023 — Apr 2027",
     gpa: "3.96/4.0",
     logo: "/images/uwaterloo-logo.jpg",
