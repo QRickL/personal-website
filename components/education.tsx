@@ -13,14 +13,14 @@ const education = [
     logo: "/images/uwaterloo-logo.jpg",
     campusPhoto: "/images/uwaterloo-campus.jpg",
     coursework: [
-      { name: "Advanced Combinatorics", grade: "99" },
-      { name: "Applied Linear Models", grade: "99" },
-      { name: "Compilers", grade: "96" },
-      { name: "Data Structures and Data Management", grade: "96" },
-      { name: "Linear Algebra II", grade: "100" },
-      { name: "Mathematical Statistics", grade: "98" },
-      { name: "Object Oriented Software Development", grade: "90" },
-      { name: "Stochastic Processes I", grade: "96" },
+      { name: "Advanced Combinatorics", /*grade: "99"*/ },
+      { name: "Applied Linear Models", /*grade: "99"*/ },
+      { name: "Compilers", /*grade: "96"*/ },
+      { name: "Data Structures and Data Management", /*grade: "96"*/ },
+      { name: "Linear Algebra II", /*grade: "100"*/ },
+      { name: "Mathematical Statistics", /*grade: "98"*/ },
+      { name: "Object Oriented Software Development", /*grade: "90"*/ },
+      { name: "Stochastic Processes I", /*grade: "96"*/ },
     ],
   },
   {
@@ -31,9 +31,10 @@ const education = [
     logo: "/images/nus-logo.jpg",
     campusPhoto: "/images/nus-campus.jpg",
     coursework: [
-      { name: "Bayesian Statistics", grade: "" },
-      { name: "Design and Analysis of Experiments", grade: "" },
-      //{ name: "Econometrics II", grade: "" },
+      { name: "Bayesian Statistics", /*grade: "A+"*/ },
+      { name: "Design and Analysis of Experiments", /*grade: "A-"*/ },
+      { name: "Econometrics II", /*grade: "A"*/ },
+      { name: "High-Dimensional Statistical Analysis", /*grade: "A+"*/ },
     ],
   },
   {
@@ -44,7 +45,7 @@ const education = [
     logo: "/images/ubc-logo.jpg",
     campusPhoto: "/images/ubc-campus.jpg",
     coursework: [
-      { name: "Calculus III", grade: "97" },
+      { name: "Calculus III", /*grade: "97"*/ },
     ],
   },
 ]

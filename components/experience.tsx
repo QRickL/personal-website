@@ -6,8 +6,19 @@ import Image from "next/image"
 
 const experiences = [
   {
+    title: "Compiler Engineer Intern",
+    company: "Huawei Canada",
+    period: "May 2026 — Aug 2026",
+    logo: "/images/laksa.png",
+    caption: "Company logo",
+    overview: "Machine instruction scheduling",
+    details: [
+      "Stay tuned for more..."
+    ],
+  },
+  {
     title: "Machine Learning Engineer Intern",
-    company: "Arcturus Networks Inc.",
+    company: "BrinqAI (formerly known as Arcturus Networks)",
     period: "Sep 2025 — Dec 2025",
     logo: "/images/arcturus-networks-logo.jpg",
     caption: "Company logo",
@@ -79,7 +90,7 @@ const experiences = [
     ],
   },
   {
-    title: "Data Science Intern",
+    title: "Research Intern",
     company: "University of California: Santa Cruz",
     period: "Jun 2022 — Aug 2022",
     logo: "/images/ucsc-logo.jpg",
