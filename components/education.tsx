@@ -139,7 +139,6 @@ export function Education() {
                           className="flex justify-between items-center bg-white/50 border border-primary/20 px-3 py-2 rounded"
                         >
                           <span className="text-sm text-foreground">{course.name}</span>
-                          <span className="text-sm font-bold text-accent font-mono">{course.grade}</span>
                         </div>
                       ))}
                     </div>
